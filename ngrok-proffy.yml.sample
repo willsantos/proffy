@@ -1,0 +1,13 @@
+authtoken: YOUR_AUTH_KEY
+//https://dashboard.ngrok.com/
+
+tunnels:
+  frontend:
+    proto: http
+    addr: 3000
+    bind_tls: false
+  backend:
+    proto: http
+    addr: 3333
+    bind_tls: false
+  
